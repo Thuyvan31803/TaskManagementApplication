@@ -34,6 +34,7 @@ export default function List() {
       <input
         value={name}
         onChange={e => setName(e.target.value)}
+        placeholder='Add a new task...'
       />
       <button onClick={handleClick}>
         Insert
